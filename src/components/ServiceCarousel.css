@@ -1,0 +1,37 @@
+/* servicesCarousel.css */
+
+.carousel-item-container {
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .carousel-content {
+    height: 475px;
+    width: 500px;
+    background-color: rgba(34, 38, 75, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+
+  
+  @media screen and (max-width: 768px) {
+    .carousel-content {
+      width: 80%; /* Adjust width for smaller devices */
+       /* Make height flexible */
+      
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .carousel-content {
+      width: 80%; /* Further adjust width for very small devices */
+     
+    }
+  }
+  

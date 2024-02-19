@@ -1,3 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this at the top of your CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
 .App {
   text-align: center;
 }
@@ -27,6 +38,16 @@
 .App-link {
   color: #61dafb;
 }
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +57,5 @@
     transform: rotate(360deg);
   }
 }
+
+
