@@ -22,7 +22,7 @@ const WhyChooseUsSection = () => {
     <section id="why-choose-us"  style={{backgroundImage: 'linear-gradient(0deg, rgba(223, 223, 223, 1) 0%, rgba(236, 236, 236, 1) 50%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%)'}}>
       <div className="py-12 max-w-custom mx-auto">
       <div className="text-center">
-        <h2 className="text-3xl font-bold mb-4 uppercase">Izvēlies mūs</h2>
+        <h2 className="text-2xl font-bold mb-4 uppercase">Izvēlies mūs</h2>
         <p className="max-w-2xl mx-auto">Uzzini, kāpēc esam ideālā izvēle tavām vajadzībām. Ar augstāko servisa kvalitāti, pieredzējušiem speciālistiem un pielāgotiem risinājumiem, mēs nodrošinām, ka tavs dators ir labākajās rokās. Mēs piedāvājam ne tikai produkta pārdošanu un remontu, bet arī vērtību, kas balstīta uz uzticību un inovāciju</p>
       </div>
       <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7 px-4">

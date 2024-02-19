@@ -18,7 +18,7 @@ const InfoItem = ({ icon, title, children }) => (
 const AboutUsSection = () => {
   return (
     <section id="about-us" className="max-w-custom mx-auto text-center py-12">
-      <h2 className="text-xl font-bold  uppercase">PAR MUMS</h2>
+      <h2 className="text-2xl font-bold  uppercase">PAR MUMS</h2>
       <p className="text-md text-gray-600 mb-8">Jūsu uzticamais partneris.</p>
       <div className="md:flex justify-center items-start space-x-4">
         <div className="md:w-1/2">
