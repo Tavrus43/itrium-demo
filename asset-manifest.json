@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/itrium-demo/static/css/main.d16780e5.css",
-    "main.js": "/itrium-demo/static/js/main.a438ed5d.js",
+    "main.css": "/itrium-demo/static/css/main.1a0e1702.css",
+    "main.js": "/itrium-demo/static/js/main.632397de.js",
     "static/css/740.bdae67d6.chunk.css": "/itrium-demo/static/css/740.bdae67d6.chunk.css",
-    "static/js/740.9e6567b1.chunk.js": "/itrium-demo/static/js/740.9e6567b1.chunk.js",
+    "static/js/740.96936d9e.chunk.js": "/itrium-demo/static/js/740.96936d9e.chunk.js",
     "static/js/749.3957ce63.chunk.js": "/itrium-demo/static/js/749.3957ce63.chunk.js",
     "static/js/413.606eede9.chunk.js": "/itrium-demo/static/js/413.606eede9.chunk.js",
     "static/css/733.225b29b7.chunk.css": "/itrium-demo/static/css/733.225b29b7.chunk.css",
@@ -39,10 +39,10 @@
     "static/media/guarantees.jpg": "/itrium-demo/static/media/guarantees.6ccc95fc08e8ab9768e0.jpg",
     "static/media/quality.jpg": "/itrium-demo/static/media/quality.82292bcbfb4ed8cd57b9.jpg",
     "index.html": "/itrium-demo/index.html",
-    "main.d16780e5.css.map": "/itrium-demo/static/css/main.d16780e5.css.map",
-    "main.a438ed5d.js.map": "/itrium-demo/static/js/main.a438ed5d.js.map",
+    "main.1a0e1702.css.map": "/itrium-demo/static/css/main.1a0e1702.css.map",
+    "main.632397de.js.map": "/itrium-demo/static/js/main.632397de.js.map",
     "740.bdae67d6.chunk.css.map": "/itrium-demo/static/css/740.bdae67d6.chunk.css.map",
-    "740.9e6567b1.chunk.js.map": "/itrium-demo/static/js/740.9e6567b1.chunk.js.map",
+    "740.96936d9e.chunk.js.map": "/itrium-demo/static/js/740.96936d9e.chunk.js.map",
     "749.3957ce63.chunk.js.map": "/itrium-demo/static/js/749.3957ce63.chunk.js.map",
     "413.606eede9.chunk.js.map": "/itrium-demo/static/js/413.606eede9.chunk.js.map",
     "733.225b29b7.chunk.css.map": "/itrium-demo/static/css/733.225b29b7.chunk.css.map",
@@ -56,7 +56,7 @@
     "142.85e3885b.chunk.js.map": "/itrium-demo/static/js/142.85e3885b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d16780e5.css",
-    "static/js/main.a438ed5d.js"
+    "static/css/main.1a0e1702.css",
+    "static/js/main.632397de.js"
   ]
 }
