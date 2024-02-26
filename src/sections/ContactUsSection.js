@@ -8,8 +8,8 @@ const ContactUsSection = ({onShowForm}) => {
       <div className="container mx-auto px-4 flex flex-wrap justify-between items-center max-w-custom  ">
         {/* Left Column */}
         <div className="lg:w-2/3 mb-4 lg:mb-0 md:text-left">
-          <h2 className="text-3xl font-bold pb-6">Nevari strādāt? Tavs dators bremzē?</h2>
-          <p className="text-5xl  mb-12">Mēs palīdzēsim jums. Ātri un Kvalitatīvi.</p>
+          <h2 className="md:text-3xl xs:text=2xl font-bold pb-6">Nevari strādāt? Tavs dators bremzē?</h2>
+          <p className="md:text-5xl  xs:text=3xl mb-12">Mēs palīdzēsim jums. Ātri un Kvalitatīvi.</p>
           <CustomButton  onClick={onShowForm} className="contact-us-button bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ">
             PIETEIKTIES
           </CustomButton>

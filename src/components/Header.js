@@ -36,7 +36,7 @@ const Header = () => {
                 <PhoneIcon className="h-6 w-6 text-white absolute top-1/2 left-1/2" style={{ transform: 'translate(-50%, -50%)', width: '30px', height: '30px' }} />
               </div>
               <span className="ml-2 text-right leading-tight">
-                <span className="block text-21">+371 000-000-00</span>
+                <span className="block text-bold  md:text-21 text-26">+371 000-000-00</span>
                 <span className="text-13">Saziņies ar mums</span>
               </span>
             </div>
@@ -48,26 +48,28 @@ const Header = () => {
     <div className=" text-text-color sticky top-0 max-w-custom mx-auto">
       <div className="container mx-auto flex justify-between items-center">
         {/* Burger menu icon for smaller screens */}
-        <div className="md:hidden">
+        <div className="md:hidden flex justify-end w-full">
           <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
-            <Bars3Icon className="h-6 w-6 text-gray-800"/>
+            <Bars3Icon className="h-8 w-8 mx-4 text-gray-800"/>
           </button>
         </div>
         {/* Navigation links - hidden on small screens, visible on md and larger */}
         <nav className="hidden md:flex">
-          <a href="#home" className="font-bold text-14 px-4 py-3  hover:text-custom-red">ITRIUMS</a>
-          <a href="#services" className="font-bold text-14 px-4 py-3 hover:text-custom-red">PAKALPOJUMI</a>
-          <a href="#about-us" className="font-bold text-14 px-4 py-3 hover:text-custom-red">PAR MUMS</a>
-          <a href="#contact-us" className="font-bold text-14 px-4 py-3 hover:text-custom-red">KONTAKTI</a>
+          <a href="#home" className="font-bold text-14 px-4 py-3  hover:text-custom-red link-hover">ITRIUMS</a>
+          <a href="#home" className="font-bold text-16 px-4 py-2.5  hover:text-custom-red link-hover">E-VEIKALS</a>
+          <a href="#services" className="font-bold text-14 px-4 py-3 hover:text-custom-red link-hover">PAKALPOJUMI</a>
+          <a href="#about-us" className="font-bold text-14 px-4 py-3 hover:text-custom-red link-hover">PAR MUMS</a>
+          <a href="#contact-us" className="font-bold text-14 px-4 py-3 hover:text-custom-red link-hover">KONTAKTI</a>
         </nav>
       </div>
       {/* Mobile menu - shown when burger menu is clicked */}
       {isMobileMenuOpen && (
         <div className="md:hidden  shadow-md">
-          <a href="#home" className="block px-4 py-2 text-14 text-gray-800 hover:bg-gray-200 " >ITRIUMS</a>
-          <a href="#services" className="block px-4 py-2 text-14 text-gray-800 hover:bg-gray-200">PAKALPOJUMI</a>
-          <a href="#about-us" className="block px-4 py-2 text-14 text-gray-800 hover:bg-gray-200">PAR MUMS</a>
-          <a href="#contact-us" className="font-bold text-14 px-4 py-3 hover:text-custom-red">KONTAKTI</a>
+          <a href="#home" className="block px-4 py-2 text-14 text-gray-800 hover:bg-gray-200 link-hover" >ITRIUMS</a>
+          <a href="#home" className="block px-4 py-2 text-14 text-gray-800 hover:bg-gray-200 link-hover">E-VEIKALS</a>
+          <a href="#services" className="block px-4 py-2 text-14 text-gray-800 hover:bg-gray-200 link-hover">PAKALPOJUMI</a>
+          <a href="#about-us" className="block px-4 py-2 text-14 text-gray-800 hover:bg-gray-200 link-hover">PAR MUMS</a>
+          <a href="#contact-us" className="block px-4 py-2 text-14  text-gray-800 hover:bg-gray-200 link-hover">KONTAKTI</a>
         </div>
       )}
     </div>

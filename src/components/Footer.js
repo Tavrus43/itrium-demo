@@ -43,7 +43,7 @@ LV-4604</span>
           </div>
           <div className="flex items-center  mb-2">
             <PhoneIcon className="h-5 w-5 mr-3  text-custom-red-light" />
-            <span className="align-middle">+971 000-000-00</span>
+            <span className="align-middle">+371 000-000-00</span>
           </div>
           <div className="flex items-center">
             <EnvelopeIcon className="h-5 w-5 text-custom-red-light mr-3" />

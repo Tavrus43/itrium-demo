@@ -18,10 +18,10 @@ function ServicesCarousel({ services, onSelectService }) {
         {services.map(service => (
           <div key={service.id} className="carousel-item-container relative flex items-center justify-center" style={{ backgroundImage: `url(${service.img})` }}>
             <div className="carousel-content text-white flex flex-col items-center text-center">
-              <h2 className='text-5xl font-cabin font-bold mt-10 pb-8'>{service.title}</h2>
+              <h2 className='lg:text-5xl text-4xl font-cabin font-bold mt-10 pb-8'>{service.title}</h2>
               <p className='text-16'>{service.shortDescription}</p>
               <div className="mt-auto" style={{ paddingBottom: '40px' }}>
-                <CustomButton onClick={() => handleReadMore(service)}>LĀSIT VAIRĀK</CustomButton>
+                <CustomButton onClick={() => handleReadMore(service)}>LASĪT VAIRĀK</CustomButton>
               </div>
             </div>
           </div>
