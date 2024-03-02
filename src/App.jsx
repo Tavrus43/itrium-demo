@@ -22,6 +22,7 @@ import Servicemimg5 from './assets/mimg-cleaning.webp';
 import backgroundServices from './assets/background-mbb.jpg';
 import FormSection from './sections/FormSection';
 import { LoadingSpinner } from './components/LoadingSpinner';
+import ProductsSection from './sections/ProductSection';
 
 
 
@@ -132,6 +133,7 @@ function App() {
           )}
         </section>
         <AboutUsSection />
+        <ProductsSection/>
         <WhyChooseUsSection />
         {!showContactForm ? (
           <ContactUsSection onShowForm={() => setShowContactForm(true)} />
