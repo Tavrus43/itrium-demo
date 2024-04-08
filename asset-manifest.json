@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/itrium-demo/static/css/main.8cca66fa.css",
-    "main.js": "/itrium-demo/static/js/main.6b90000e.js",
+    "main.js": "/itrium-demo/static/js/main.83009788.js",
     "static/css/740.bdae67d6.chunk.css": "/itrium-demo/static/css/740.bdae67d6.chunk.css",
     "static/js/740.96936d9e.chunk.js": "/itrium-demo/static/js/740.96936d9e.chunk.js",
     "static/js/749.34405943.chunk.js": "/itrium-demo/static/js/749.34405943.chunk.js",
@@ -40,7 +40,7 @@
     "static/media/quality.jpg": "/itrium-demo/static/media/quality.82292bcbfb4ed8cd57b9.jpg",
     "index.html": "/itrium-demo/index.html",
     "main.8cca66fa.css.map": "/itrium-demo/static/css/main.8cca66fa.css.map",
-    "main.6b90000e.js.map": "/itrium-demo/static/js/main.6b90000e.js.map",
+    "main.83009788.js.map": "/itrium-demo/static/js/main.83009788.js.map",
     "740.bdae67d6.chunk.css.map": "/itrium-demo/static/css/740.bdae67d6.chunk.css.map",
     "740.96936d9e.chunk.js.map": "/itrium-demo/static/js/740.96936d9e.chunk.js.map",
     "749.34405943.chunk.js.map": "/itrium-demo/static/js/749.34405943.chunk.js.map",
@@ -56,6 +56,6 @@
   },
   "entrypoints": [
     "static/css/main.8cca66fa.css",
-    "static/js/main.6b90000e.js"
+    "static/js/main.83009788.js"
   ]
 }
