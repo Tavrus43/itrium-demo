@@ -2,6 +2,8 @@ import React from 'react';
 import { AcademicCapIcon, FlagIcon } from '@heroicons/react/24/outline';
 import img from '../assets/3.jpg';
 
+import { aboutUsData } from '../data';
+
 // Оптимизированный компонент для элемента списка
 const InfoItem = ({ icon, title, children }) => (
   <div className="flex space-x-4 items-start">
@@ -25,22 +27,11 @@ const AboutUsSection = () => {
           <img src={img} alt="About Us" className="shadow-md object-cover overflow-hidden" loading="lazy" />
         </div>
         <div className="md:w-1/2 space-y-8 mt-8 md:mt-0 text-left">
-          <InfoItem icon={<FlagIcon className="h-7 w-7 text-white uppercase font-bold"  />} title="strādājam jau 3 gadus">
-          Ar vairāk nekā 3 gadu pieredzi PC servisa nozarē, mēs esam uzticams partneris visām jūsu
-          datoru vajadzībām. No pirmajām dienām, mūsu mērķis ir bijis nodrošināt augstākās kvalitātes 
-          datoru pārdošanas, remonta un uzbūves pakalpojumus. Mūsu pieredzējušais komandas sastāvs ir
-          gatavs risināt jebkuras sarežģītības problēmas, sākot no vienkārša aparatūras uzlabojuma līdz
-          sarežģītai sistēmu atjaunošanai. Mēs lepojamies ar to, ka esam palīdzējuši simtiem klientu, gan
-          individuāliem lietotājiem, gan uzņēmumiem, sasniegt optimālu datoru darbības efektivitāti un drošību
+          <InfoItem icon={<FlagIcon className="h-7 w-7 text-white uppercase font-bold"  />} title={aboutUsData.infoItems[0].title}>
+          {aboutUsData.infoItems[0].description}
           </InfoItem>
-          <InfoItem icon={<AcademicCapIcon className="h-7 w-7 text-white uppercase"  />} title="Augsta pieredze">
-          Mūsu komanda sastāv no augsti kvalificētiem speciālistiem, kuriem ir plašas zināšanas un
-          praktiskas iemaņas datoru tehnikas jomā. Katrs no mūsu tehniķiem ir apmācīts un sertificēts, lai 
-          nodrošinātu vislabāko servisu mūsu klientiem. Mēs pastāvīgi sekojam līdzi jaunākajām 
-          tehnoloģijām un tendencēm, lai mūsu klienti vienmēr saņemtu vismodernākos un efektīvākos
-          risinājumus. No sistēmas diagnostikas un vīrusu noņemšanas līdz pilnīgai datoru uzbūvei un 
-          pielāgošanai atbilstoši klienta specifiskajām vajadzībām - mēs garantējam augstas kvalitātes
-          pakalpojumu un klientu apmierinātību.
+          <InfoItem icon={<AcademicCapIcon className="h-7 w-7 text-white uppercase"  />} title={aboutUsData.infoItems[0].title}>
+          {aboutUsData.infoItems[1].description}
             
           </InfoItem>
         </div>

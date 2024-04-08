@@ -1,7 +1,7 @@
 import React from 'react';
 import { EnvelopeIcon, PhoneIcon,  MapPinIcon } from '@heroicons/react/24/outline'; // Adjust icon imports as needed
 import img from '../assets/contact-form.webp';
-
+import { contactsData } from '../data';
 
 const FormSection = ({ onShowContactUs }) => {
   return (
@@ -32,7 +32,8 @@ const FormSection = ({ onShowContactUs }) => {
             <img src={img} alt="Contact Form" className="shadow-lg w-full h-auto lg:h-full object-cover" loading="lazy" />
           </div>
           <div className="lg:w-1/2 w-full mt-4 lg:mt-0">
-            <h2 className="text-2xl mb-4">Nosūtiet mums ziņu</h2>
+            <h2 className="text-2xl mb-4">Nosūtiet mums ziņu,</h2>
+            <h2 className="text-2xl mb-4">vai zvaniet uz {contactsData.phone} </h2>
             <p className="text-14 text-gray-200 mb-4">Jūsu informācija ir aizsargāta</p>
             <form>
             {/* Name */}

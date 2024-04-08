@@ -34,7 +34,7 @@ const ServiceCard = React.memo(({ service, onSelectService }) => {
           </p>
         </div>
         <div className="px-6 pb-2">
-          <button onClick={() => onSelectService(service)} className="bg-white group-hover:bg-custom-blue text-text-color group-hover:text-white transition-colors duration-300 ease-in-out font-sans border text-13 py-2 px-8 mb-8">
+          <button onClick={() => onSelectService(service)} className="  group-hover:bg-custom-red text-text-color group-hover:text-white transition-colors duration-300 ease-in-out font-sans border text-13 py-2 px-8 mb-8">
             Lasīt talāk
           </button>
         </div>

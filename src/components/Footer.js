@@ -1,19 +1,10 @@
 import React from 'react';
 import { ChevronDoubleUpIcon, EnvelopeIcon, MapPinIcon, PhoneIcon } from '@heroicons/react/24/outline'; // Example icons
 import img from '../assets/footer-bg.jpg';
+import { workHours, contactsData } from '../data';
 
 const Footer = () => {
-  // Example work hours data
-  const workHours = [
-    { day: 'Pirmdiena', hours: '9:00 - 17:00' },
-    { day: 'Otrdiena', hours: '9:00 - 17:00' },
-    { day: 'Trešdiena', hours: '9:00 - 17:00' },
-    { day: 'Ceturtdiena', hours: '9:00 - 17:00' },
-    { day: 'Piektdiena', hours: '9:00 - 17:00' },
-    { day: 'Sestdiena', hours: 'Slēgts' }, // Assuming closed on Saturdays
-    { day: 'Svētdiena', hours: 'Slēgts' },  // Assuming closed on Sundays
-  ];
-  
+
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -38,16 +29,15 @@ const Footer = () => {
           <h3 className="font-bold text-xl mb-5">ADRESE</h3>
           <div className="flex items-center mb-3">
             <MapPinIcon className="h-5 w-5 text-custom-red-light mr-2" />
-            <span className="align-middle">Rēzekne, Atbrīvošanas aleja 167, 
-LV-4604</span>
+            <span className="align-middle"> {contactsData.address.city}, {contactsData.address.street}, {contactsData.address.code}</span>
           </div>
           <div className="flex items-center  mb-2">
             <PhoneIcon className="h-5 w-5 mr-3  text-custom-red-light" />
-            <span className="align-middle">+371 000-000-00</span>
+            <span className="align-middle">{contactsData.phone}</span>
           </div>
           <div className="flex items-center">
             <EnvelopeIcon className="h-5 w-5 text-custom-red-light mr-3" />
-            <span className="align-middle text-custom-red-light">info@itrium.lv</span>
+            <span className="align-middle text-custom-red-light">{contactsData.email}</span>
           </div>
         </div>
 
@@ -67,7 +57,7 @@ LV-4604</span>
 
       {/* Second Row */}
       <div className="container max-w-custom mx-auto px-6 py-4 flex justify-between items-center border-t border-gray-700">
-        <span>&copy; 2024 Made by Tavrus</span>
+        <span>&copy; 2024</span>
         <ChevronDoubleUpIcon className="h-8 w-8 cursor-pointer" onClick={scrollToTop} />
       </div>
     </footer>
