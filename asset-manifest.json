@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/itrium-demo/static/css/main.8cca66fa.css",
-    "main.js": "/itrium-demo/static/js/main.83009788.js",
+    "main.css": "/itrium-demo/static/css/main.d17d908e.css",
+    "main.js": "/itrium-demo/static/js/main.8d13ff7d.js",
     "static/css/740.bdae67d6.chunk.css": "/itrium-demo/static/css/740.bdae67d6.chunk.css",
     "static/js/740.96936d9e.chunk.js": "/itrium-demo/static/js/740.96936d9e.chunk.js",
     "static/js/749.34405943.chunk.js": "/itrium-demo/static/js/749.34405943.chunk.js",
@@ -30,6 +30,7 @@
     "static/media/simg-lokalie-tikli.jpg": "/itrium-demo/static/media/simg-lokalie-tikli.8484d3ce8a4aeaaf75be.jpg",
     "static/media/simg-cleaning.webp": "/itrium-demo/static/media/simg-cleaning.0ae2bdd6fc5b936eb529.webp",
     "static/media/mimg-cleaning.webp": "/itrium-demo/static/media/mimg-cleaning.1543a6e3aa22a49c0d9c.webp",
+    "static/media/logo192.png": "/itrium-demo/static/media/logo192.446064861d6a4b81f21a.png",
     "static/media/contact-form.webp": "/itrium-demo/static/media/contact-form.fef35ca9fe164a2dc6e3.webp",
     "static/media/simg-server.webp": "/itrium-demo/static/media/simg-server.435e5b2521405b87c71a.webp",
     "static/media/skill.jpg": "/itrium-demo/static/media/skill.fa19f26f0de0a41f6518.jpg",
@@ -39,8 +40,8 @@
     "static/media/simg-videonoveresana.jpeg": "/itrium-demo/static/media/simg-videonoveresana.5545d4c4c1ea49d03f84.jpeg",
     "static/media/quality.jpg": "/itrium-demo/static/media/quality.82292bcbfb4ed8cd57b9.jpg",
     "index.html": "/itrium-demo/index.html",
-    "main.8cca66fa.css.map": "/itrium-demo/static/css/main.8cca66fa.css.map",
-    "main.83009788.js.map": "/itrium-demo/static/js/main.83009788.js.map",
+    "main.d17d908e.css.map": "/itrium-demo/static/css/main.d17d908e.css.map",
+    "main.8d13ff7d.js.map": "/itrium-demo/static/js/main.8d13ff7d.js.map",
     "740.bdae67d6.chunk.css.map": "/itrium-demo/static/css/740.bdae67d6.chunk.css.map",
     "740.96936d9e.chunk.js.map": "/itrium-demo/static/js/740.96936d9e.chunk.js.map",
     "749.34405943.chunk.js.map": "/itrium-demo/static/js/749.34405943.chunk.js.map",
@@ -55,7 +56,7 @@
     "142.85e3885b.chunk.js.map": "/itrium-demo/static/js/142.85e3885b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cca66fa.css",
-    "static/js/main.83009788.js"
+    "static/css/main.d17d908e.css",
+    "static/js/main.8d13ff7d.js"
   ]
 }
