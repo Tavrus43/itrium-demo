@@ -59,7 +59,7 @@ const Header = () => {
         {/* Navigation links - hidden on small screens, visible on md and larger */}
         <nav className="hidden md:flex">
             {/* Updated links to use React Router Link */}
-            <Link to="/itrium-demo" className="font-bold text-14 px-4 py-3  hover:text-custom-red link-hover">ITRIUMS</Link>
+            <Link to="/" className="font-bold text-14 px-4 py-3  hover:text-custom-red link-hover">ITRIUMS</Link>
             <a href={process.env.REACT_APP_SHOP_URL} className="font-bold text-16 px-4 py-2.5  hover:text-custom-red link-hover">E-VEIKALS</a>
             {/* You can keep the other links as regular anchor tags */}
             <a href="#services" className="font-bold text-14 px-4 py-3 hover:text-custom-red link-hover">PAKALPOJUMI</a>
@@ -70,7 +70,7 @@ const Header = () => {
       {isMobileMenuOpen && (
         <div className="md:hidden shadow-md">
           {/* Updated links to use React Router Link */}
-          <Link to="/itrium-demo" className="block px-4 py-2 text-14 text-gray-800 hover:bg-gray-200 link-hover" >ITRIUMS</Link>
+          <Link to="/" className="block px-4 py-2 text-14 text-gray-800 hover:bg-gray-200 link-hover" >ITRIUMS</Link>
           <a href={process.env.REACT_APP_SHOP_URL} className="block px-4 py-2 text-14 text-gray-800 hover:bg-gray-200 link-hover">E-VEIKALS</a>
           {/* You can keep the other links as regular anchor tags */}
           <a href="#services" className="block px-4 py-2 text-14 text-gray-800 hover:bg-gray-200 link-hover">PAKALPOJUMI</a>

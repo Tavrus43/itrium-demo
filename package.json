@@ -1,5 +1,5 @@
 {
-    "homepage": "${REACT_APP_SITE_URL}",
+    "homepage": "",
     "name": "itrium-fronend",
     "version": "0.1.0",
     "private": true,
