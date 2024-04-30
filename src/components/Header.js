@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { PhoneIcon, ClockIcon, MapPinIcon, Bars3Icon } from '@heroicons/react/24/outline';
 import './Header.css'; // Assuming custom CSS for specific styles not covered by Tailwind
 import { Link } from 'react-router-dom';
+import logo from '../assets/logo192.png';
 
 import { contactsData } from '../data';
 const Header = () => {
@@ -14,8 +15,8 @@ const Header = () => {
       <div className=" text-text-color h-20 flex justify-between items-center max-w-custom mx-auto">
         <div className="container mx-auto flex justify-between items-center">
           {/* Logo */}
-          <div className="flex items-center" style={{ padding: '0 16px', width: '69px', height: '69px' }}>
-            <img src="/path-to-your-logo.png" alt="Logo" className="w-full h-full" />
+          <div className="flex items-center" style={{ padding: '0px', width: '69px', height: '69px' }}>
+            <img src={logo} alt="Logo" className="" />
           </div>
           {/* Info items - Order changed */}
           <div className="flex">

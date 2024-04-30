@@ -4,6 +4,33 @@ import img from '../assets/contact-form.webp';
 import { contactsData } from '../data';
 
 const FormSection = ({ onShowContactUs }) => {
+
+  const [result, setResult] = React.useState("Sūtīt");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Gaidiet....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", process.env.REACT_APP_PUBLIC_ACCESS_KEY);
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Veidlapa tika veiksmīgi atsutita");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
+
   return (
     <section id="form-section" className="py-12 bg-custom-blue text-white">
       <div className="container max-w-custom mx-auto px-4">
@@ -12,17 +39,17 @@ const FormSection = ({ onShowContactUs }) => {
           <div>
             <MapPinIcon className="h-10 w-10 mx-auto mb-2 text-custom-red" />
             <h3 className="font-bold">Adrese</h3>
-            <p>Rēzekne, Atbrīvošanas aleja 167</p>
+            <p>{contactsData.address.city} {contactsData.address.street}</p>
           </div>
           <div>
             <EnvelopeIcon className="h-10 w-10 mx-auto mb-2 text-custom-red" />
             <h3 className="font-bold">E-pasts</h3>
-            <p>info@itrium.lv</p>
+            <p>{contactsData.email}</p>
           </div>
           <div>
             <PhoneIcon className="h-10 w-10 mx-auto mb-2 text-custom-red" />
             <h3 className="font-bold">Telefons</h3>
-            <p>+371 000-000-00</p>
+            <p>{contactsData.phone}</p>
           </div>
         </div>
 
@@ -35,7 +62,7 @@ const FormSection = ({ onShowContactUs }) => {
             <h2 className="text-2xl mb-4">Nosūtiet mums ziņu,</h2>
             <h2 className="text-2xl mb-4">vai zvaniet uz {contactsData.phone} </h2>
             <p className="text-14 text-gray-200 mb-4">Jūsu informācija ir aizsargāta</p>
-            <form>
+            <form onSubmit={onSubmit}>
             {/* Name */}
               <div className="mb-4">
                 <label htmlFor="name" className="sr-only">Jūsu Vārds*</label>
@@ -58,7 +85,7 @@ const FormSection = ({ onShowContactUs }) => {
               </div>
               {/* Submit Button */}
               <button type="submit" className="bg-custom-red  hover:bg-red-700 text-white font-bold py-2 px-8 rounded transition-colors">
-                Sūtīt
+                {result}
               </button>
             </form>
           </div>
