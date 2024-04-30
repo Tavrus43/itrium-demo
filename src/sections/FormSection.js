@@ -22,7 +22,7 @@ const FormSection = ({ onShowContactUs }) => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Veidlapa tika veiksmīgi atsutita");
+      setResult("Veidlapa tika veiksmīgi nosutita");
       event.target.reset();
     } else {
       console.log("Error", data);
